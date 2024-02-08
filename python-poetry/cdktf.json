@@ -3,7 +3,10 @@
   "app": "poetry run python main.py",
   "projectId": "{{projectId}}",
   "sendCrashReports": "{{sendCrashReports}}",
-  "terraformProviders": [],
+  "terraformProviders": [
+    "hashicorp/azurerm@3.55",
+    "null@~> 3.1"
+  ],
   "terraformModules": [],
   "codeMakerOutput": "imports",
   "context": {
