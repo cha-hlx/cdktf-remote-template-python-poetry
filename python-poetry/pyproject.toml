@@ -8,6 +8,7 @@ authors = []
 python = "^3.11"
 cdktf = "~=0.19.2"
 pytest = "~=7.3.1"
+cdktf-platform = {git = "https://gitlab.hylastix.net/cdktf/cdktf-platform", develop = true, rev = "main"}
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
